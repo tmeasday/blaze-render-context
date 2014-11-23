@@ -1,0 +1,17 @@
+<head>
+  <title>blaze-render-context</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Change Data</button>
+</template>
+
+<template name="showData">{{foo}}</template>
+
+<template name="showDataFromId">{{doc.foo}}</template>
